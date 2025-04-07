@@ -3,83 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilos/index.css">
     <title>Tags em HTML5 e CSS3</title>
 </head>
 <body>
     <header>
         <h1>Aprenda as TAGS em HTML5 e CSS3</h1>
         <p>
-            Clique nos Links para saber sobre cada TAG.
+            Clique nos Links abaixo para redirecionar até onde deseja.
         </p>
-        <nav>
-            <a href="#">Textos e Títulos</a>
-            <a href="#">listas</a>
-            <a href="#">Links e Navegação</a>
-            <a href="#">Imagens e Mídia</a>
-            <a href="#">Tabelas</a>
-            <a href="#">Formulários</a>
-            <a href="#">Classes e IDs</a>
-            <a href="#">Estrutura Semântica HTML5</a>
-        </nav>
     </header>
     <main>
+        <nav id="nav">
+            <a href="#itextos">Textos e Títulos</a>
+            <a href="#ilistas">listas</a>
+            <a href="#ilinks">Links e Navegação</a>
+            <a href="#imidias">Imagens e Mídia</a>
+            <a href="#itabelas">Tabelas</a>
+            <a href="#iformularios">Formulários</a>
+            <a href="#iclasses">Classes e IDs</a>
+            <a href="#iestrutura">Estrutura Semântica HTML5</a>
+        </nav>
         <h1>Formatações HTML5</h1>
+        <p>
+            Clique sobre as Tags para saber mais sobre elas.
+        </p>
 
-        <section>
+        <section id="itextos">
             <h2>Textos e Títulos</h2>
             <ul>
                 <li>
                     <code>&lt;h1&gt;</code> a <code>&lt;h6&gt;</code> —  Cabeçalhos.
                 </li>
-            
+                <hr>
                 <li>
                     <code>&lt;p&gt;</code> — Parágrafo.
                 </li>
-            
+                <hr>
                 <li>
                     <code>&lt;strong&gt;</code> — Negrito com ênfase semântica.
                 </li>
-            
+                <hr>
                 <li>
                     <code>&lt;em&gt;</code> — Itálico com ênfase semântica.
                 </li>
-            
+                <hr>
                 <li>
                     <code>&lt;br&gt;</code> — Quebra de linha.
                 </li>
-            
+                <hr>
                 <li>
                     <code>&lt;hr&gt;</code> — Linha horizontal (separação de conteúdo).
                 </li>
-            
+                <hr>
                 <li>
                     <code>&lt;mark&gt;</code> — Marca texto (amarelo por padrão).
                 </li>
-            
+                <hr>
                 <li>
                     <code>&lt;blockquote&gt;</code> — Citação longa.
                 </li>
-            
+                <hr>
                 <li>
                     <code>&lt;code&gt;</code> — Código inline.
                 </li>
-            
+                <hr>
                 <li>
                     <code>&lt;pre&gt;</code> — Bloco de código pré-formatado.
                 </li>
-            
+                <hr>
                 <li>
                     <code>&lt;small&gt;</code> — Texto menor.
                 </li>
-            
+                <hr>
                 <li>
                     <code>&lt;sub&gt;</code> / <code>&lt;sup&gt;</code> — Subscrito / sobrescrito.
                 </li>
             </ul>
+            <a href="#nav" id="inicio">inicio</a>
         </section>
 
-        <section>
+        <section id="ilistas">
             <h2>Listas</h2>
             <ul>
                 <li>
@@ -99,7 +103,7 @@
             </ul>
         </section>
 
-        <section>
+        <section id="ilinks">
             <h2>Links e Navegação</h2>
             <ul>
                 <li>
@@ -111,7 +115,7 @@
             </ul>
         </section>
 
-        <section>
+        <section id="imidias">
             <h2>Imagens e Mídia</h2>
             <ul>
                 <li><code>&lt;img src="..." alt="..."&gt;</code> — Imagem.</li>
@@ -120,7 +124,7 @@
             </ul>
         </section>
 
-        <section>
+        <section id="itabelas">
             <h2>Tabelas</h2>
             <ul>
                 <li>
@@ -129,7 +133,7 @@
             </ul>
         </section>
 
-        <section>
+        <section id="iformularios">
             <h2>Formulários</h2>
             <ul>
                 <li>
@@ -138,7 +142,7 @@
             </ul>
         </section>
 
-        <section>
+        <section id="iclasses">
             <h2>Classes e IDs:</h2>
             <ul>
                 <li>
@@ -151,21 +155,22 @@
         </section>
 
 
-        <h2>Estrutura Semântica HTML5</h2>
-        <p>Use as tags semânticas para dar sentido ao conteúdo:</p>
-        <ul>
-            <li><code>&lt;header&gt;</code> — Cabeçalho.</li>
-
-            <li><code>&lt;main&gt;</code> — Conteúdo principal.</li>
-                
-            <li><code>&lt;section&gt;</code> — Seções.</li>
-                
-            <li><code>&lt;article&gt;</code> — Conteúdo independente.</li>
-                
-            <li><code>&lt;aside&gt;</code> — Conteúdo lateral.</li>
-                
-            <li><code>&lt;footer&gt;</code> — Rodapé.</li>
-        </ul>
+        <section id="iestrutura">
+            <h2>Estrutura Semântica HTML5</h2>
+            <p>Use as tags semânticas para dar sentido ao conteúdo:</p>
+            <ul>
+                <li><code>&lt;header&gt;</code> — Cabeçalho.</li>
+                <li><code>&lt;main&gt;</code> — Conteúdo principal.</li>
+            
+                <li><code>&lt;section&gt;</code> — Seções.</li>
+            
+                <li><code>&lt;article&gt;</code> — Conteúdo independente.</li>
+            
+                <li><code>&lt;aside&gt;</code> — Conteúdo lateral.</li>
+            
+                <li><code>&lt;footer&gt;</code> — Rodapé.</li>
+            </ul>
+        </section>
     </main>
 
         <ul>
